@@ -7,11 +7,14 @@ function inRoom (server, name) {
 }
 
 function bindSocket (socket) {
+  if (socket._rooms) return socket
   socket._rooms = []
   socket.join = function (name) {socket._rooms.push(name)}
+  return socket
 }
 
 function bindServer (server) {
+  if (server.room) return server
   server.on('connection', bindSocket)
 
   server.room = function (name, prop) {
