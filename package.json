@@ -1,6 +1,6 @@
 {
   "name": "eiorooms",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Rooms for engine.io servers.",
   "main": "index.js",
   "devDependencies": {
