@@ -4,9 +4,9 @@
   "description": "Rooms for engine.io servers.",
   "main": "index.js",
   "devDependencies": {
-    "cleanup": "~0.2.0",
-    "eiojson": "~0.7.0",
-    "okdone": "~0.2.0"
+    "cleanup": "~0.3.0",
+    "eiojson": "~0.9.0",
+    "okdone": "~0.3.0"
   },
   "scripts": {
     "test": "node test.js"
